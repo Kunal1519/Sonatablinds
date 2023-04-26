@@ -1,0 +1,214 @@
+﻿.rectagle-Skew {
+    width: 100%;
+    height: 90vh;
+    background-color: #212529;
+    -ms-transform: skewY(20deg);
+    transform: skewY(10deg);
+    overflow: hidden;
+}
+
+.major-Rectangle {
+    background-color: #EFEFEF;
+    height:250vh;
+    width:100%;
+   
+}
+.top-rantangle{
+    width:100%;
+    height:70vh;
+}
+.image-Skew {
+    transform: skewY(-10deg) !important;
+}
+
+.rectangle-image {
+    margin:5rem;
+    width: 60%;
+}
+
+.RectangleForHutImage {
+    z-index:1;
+    background-image: url("/Images/hut_for_backgound.png");
+    margin: 0 !important;
+    width: 42%;
+    position:relative;
+    height: 79vh;
+    float: left;
+}
+.FirstHalfRectangle  {
+    margin: 0 !important;
+    width: 56%;
+    float: left;
+}
+
+.SecondHalfRectangle {
+    margin: 0 !important;
+    width: 2%;
+    float: left;
+}
+
+.RectangleForTrustAndChoose {
+    height:150vh;
+    padding-top:2%;
+}
+
+h2{
+    position: relative;
+    display: block;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    margin: 0px;
+    font-weight:600;
+}
+.trusttextstyle {
+    padding: 15% 0 0 8%;
+}
+.LogoStyle {
+    width: 20vh;
+    padding: 15% 0 2% 8%;
+}
+
+.SecondRowSecondHalfRectangle {
+    width: 70%;
+    float: left;
+    background-color: white;
+    height: 90vh;
+    margin-top: -40vh;
+    position:relative;
+}
+
+.SecondRowFirstHalfRectangle {
+    width: 30%;
+    float: left;
+    height: 90vh;
+    background-color: white;
+    padding: 2% 5%;
+    margin-top: -40vh;
+    
+}
+
+
+.cardImage {
+    background-image: url("/Images/cardBackground.jpg");
+    height: 82vh;
+    position: relative;
+    padding: 225px 35px 45px 35px;
+}
+
+.YearsOfText {
+    position: relative;
+    background: white;
+    text-align: center;
+    box-shadow: 10px 10px 0px 0px rgba(255, 255, 255, 0.35);
+    display: block;
+    padding: 45px 25px 40px 25px;
+}
+
+.textstylefor {
+    position: relative;
+    display: inline-block;
+    font-size: 106px;
+    font-weight: 700;
+    width: 170px;
+    height: 170px;
+    line-height: 160px;
+    border-radius: 50%;
+    border: 2px dashed #24485e;
+    margin-bottom: 20px;
+    color:orangered;
+}
+
+
+
+
+
+.chooseus-block-one {
+    position: relative;
+   text-align:center;
+    margin: 0 2%;
+    z-index: 2;
+    padding: 2%;
+}
+
+.icon-box {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 155px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 29px !important;
+    z-index: 1;
+}
+.icon-box:hover {
+    position: relative;
+    display: inline-block;
+    width: 150px;
+    height: 155px;
+    text-align: center;
+    background: #20445a;
+    box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 29px !important;
+    z-index: 1;
+}
+
+
+
+
+
+a {
+    box-shadow: none;
+    color: #007bff !important;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+
+
+
+.attachment-full {
+    margin-top: 6vh;
+}
+
+h3 {
+    text-align: center;
+    display: block;
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+p {
+    position: relative !important;
+    font-family: 'Barlow', sans-serif !important;
+    color: #555555 !important;
+    font-weight: 400 !important;
+    transition: all 500ms ease !important;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.RectangleForTrustAndChoose {
+    display: block;
+}
+
+.forsmallSizeDevice{
+    display:none;
+}
+
+@media (max-width: 1250px) {
+    .RectangleForTrustAndChoose {
+        display: none !important;
+    }
+    .forsmallSizeDevice{
+        display:block !important;
+        text-align:center !important;
+    }
+    .chooseus-block {
+        margin: 1vh 0vh !important;
+    }
+}
